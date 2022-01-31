@@ -1,13 +1,25 @@
-import * as React from "react"
+import React from "react"
 
-import DropDownRows from "../components/DropDownRows.js"
+import Layout from "../components/Layout"
+import DropDownRows from "../components/DropDownRows"
 
-const IndexPage = () => {
-  return (
-    <main>
-	<title>Weimar</title>
-    </main>
-  )
+
+const IndexPage = ({ data }) => {
+    return (
+	<div>
+	    <Layout>
+		<div className="willkommen" width="300">
+		</div>
+		<section className="paedagogen-und-verwaltung mt-5">
+		    <div className="container d-flex flex-column">
+			<h1>PÄDAGOGEN & VERWALTUNG</h1>
+			<DropDownRows />
+		    </div>
+		</section>
+	    </Layout>
+	</div>
+    )
 }
+
 
 export default IndexPage

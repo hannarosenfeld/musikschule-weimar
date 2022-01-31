@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+}
+
+
+p {
+    font-size: 0.8rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.header-navbar {
+    display: flex;
+    height: 50px;
+}
+
+.header-navbar img{
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.willkommen {
+    border: 6px solid magenta;
+    height: 50vh;
+}
+
+
+
+.paedagogen-und-verwaltung .dropdown-rows .row {
+    background: #cbc3ff;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+.staff-container {
+    background: #faf9ff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.staff-container article {
+    display: flex;
+    margin: 1em;
+    width: 45%;
+}
+
+.staff-container article .staff-image-container {
+    flex-grow: 4;
+    width: 300%;
+}
+
+
+
+
+@media(max-width: 800px) {
+    .staff-container article{
+	width: 100%;
+    }
+}
