@@ -1,21 +1,27 @@
 module.exports = {
   siteMetadata: {
-      title: `Musikschule Weimar`,
-    siteUrl: `https://www.yourdomain.tld`
+      title: "Musikschule Weimar",
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "images",
-      "path": "./src/images/"
-    },
-    __key: "images"
-  }, {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "pages",
-      "path": "./src/pages/"
-    },
-    __key: "pages"
-  }]
+    plugins: [
+	"gatsby-plugin-image",
+	"gatsby-plugin-sharp",
+	{
+	    resolve: `gatsby-source-filesystem`,
+	    options: {
+		name: `pages`,
+		path: `${__dirname}/src/pages/`,
+	    },
+	},
+	{
+	    resolve: "gatsby-source-filesystem",
+	    options: {
+		name: `staff`,
+		path: `${__dirname}/src/staff`,
+	    }
+	},
+	"gatsby-plugin-mdx",
+	"gatsby-transformer-sharp",
+	"gatsby-transformer-remark",
+	`gatsby-remark-images`,
+    ],
 };
