@@ -18,19 +18,14 @@ h5 {
 
 .header-navbar {
     display: flex;
-    height: 50px;
+    margin: 0 auto;
 }
 
 .header-navbar img{
-    flex: 1 1 0;
-    min-width: 0;
+    border: 2px solid red;
+    width: 10%;
+
 }
-
-.willkommen {
-    height: 50vh;
-}
-
-
 
 .paedagogen-und-verwaltung .dropdown-rows .row {
     background: #cbc3ff;
