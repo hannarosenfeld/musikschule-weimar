@@ -7,8 +7,10 @@ import background from "../images/HG_Element_01.png"
 
 const IndexPage = ({ data }) => {
     return (
-	    <Layout>
-		<img style={{margin: "auto 2em"}} className="willkommen container" src={background} />
+	<Layout>
+	    <div className="container">
+		<img style={{margin: "0 auto"}} className="willkommen" src={background} />
+	    </div>
 		<section className="paedagogen-und-verwaltung mt-5">
 		    <div className="container d-flex flex-column">
 			<h1>PÄDAGOGEN & VERWALTUNG</h1>
