@@ -27,7 +27,6 @@ h5 {
 }
 
 .willkommen {
-    border: 6px solid magenta;
     height: 50vh;
 }
 
@@ -55,9 +54,6 @@ h5 {
     flex-grow: 4;
     width: 300%;
 }
-
-
-
 
 @media(max-width: 800px) {
     .staff-container article{
