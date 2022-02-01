@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => {
 	    <section className="paedagogen-und-verwaltung mt-5">
 		<div className="container d-flex flex-column">
 		    <h1>PÄDAGOGEN & VERWALTUNG</h1>
-		    <DropDownRows />
+		    <DropDownRows/>
 		</div>
 	    </section>
 	</Layout>

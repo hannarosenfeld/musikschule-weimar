@@ -67,8 +67,23 @@ h5 {
     width: 300%;
 }
 
+
+
+.footer-links a{
+    padding: 0 1em;
+}
+
+
+
+
+
+
+
+
+
 @media(max-width: 800px) {
     .staff-container article{
 	width: 100%;
     }
 }
+
