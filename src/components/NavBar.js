@@ -16,28 +16,28 @@ const NavBar = () => {
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 		    <li style={{width: "30%"}}>
-			<img class="navbar-brand" src={logo} />
+			<img src={logo} />
 		    </li>
-		    <li class="nav-item active">
+		    <li class="nav-item active" style={{background: "#F9BB2D"}}>
 			<a class="nav-link" href="#">Ueber Uns</a>
 		    </li>
-		    <li class="nav-item">
+		    <li class="nav-item" style={{background: "#FBD07B"}}>
 			<a class="nav-link" href="#">Instrumente</a>
 		    </li>
-		    <li class="nav-item">
+		    <li class="nav-item" style={{background: "#FDDEB2"}}>
 			<a class="nav-link" href="#">Projekte</a>
 		    </li>
-		    <li class="nav-item">
+		    <li class="nav-item" style={{background: "#F7E2D8"}}>
 			<a class="nav-link" href="#">Unterstuetzung</a>
 		    </li>
-		    <li class="nav-item">
+		    <li class="nav-item" style={{background: "#E2D3EB"}}>
 			<a class="nav-link" href="#">Service</a>
 		    </li>
-		    <li class="nav-item">
+		    <li class="nav-item" style={{background: "#C6BEF9"}}>
 			<a class="nav-link" href="#">Anmeldung</a>
 		    </li>
 			<li style={{width: "30%"}}>			
-			    <img class="navbar-brand" src={youtube_logo} />
+			    <img src={youtube_logo} />
 			</li>
 			
 		</ul>

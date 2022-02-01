@@ -10,10 +10,10 @@ const IndexPage = ({ data }) => {
     return (
 	<Layout>
 	    
-	    <div className="container">
+	    <div>
 		<img style={{margin: "0 auto"}} width="100%" className="willkommen" src={background} />
 	    </div>
-	    <div className="container">
+	    <div>
 		<img src={musikschule_gebaeude} style={{width: "100%"}}/>
 	    </div>
 	    <section className="paedagogen-und-verwaltung mt-5">

@@ -35,10 +35,10 @@ h5 {
 
 .header-navbar li a{
     margin: 0 auto;
+    color: #EB5C32 !important;
 }
 
 .header-navbar ul li{
-    border: 1px solid;
     margin: 0 0.2em;
     text-transform: uppercase;
 
