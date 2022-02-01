@@ -16,14 +16,31 @@ h5 {
     text-transform: uppercase;
 }
 
-.header-navbar {
+.header-navbar ul {
     display: flex;
     margin: 0 auto;
 }
 
-.header-navbar img{
-    border: 2px solid red;
-    width: 10%;
+.header-navbar li {
+    flex-shrink: 2;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.header-navbar li img{
+    width: 100%;
+}
+
+.header-navbar li a{
+    margin: 0 auto;
+}
+
+.header-navbar ul li{
+    border: 1px solid;
+    margin: 0 0.2em;
+    text-transform: uppercase;
 
 }
 
